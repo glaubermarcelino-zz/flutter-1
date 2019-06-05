@@ -5,7 +5,7 @@ class RenatoButton extends StatelessWidget {
   double width;
   double height;
   Color color;
-  MaterialColor progressColor;
+  Color progressColor;
   Widget textButton;
 
   RenatoButton({this.width, this.height, this.color,this.progressColor,this.textButton});
@@ -19,6 +19,7 @@ class RenatoButton extends StatelessWidget {
         height: this.height,
         color: this.color,
         textButton: this.textButton,
+	      progressColor:  this.progressColor
       );
 
   }
@@ -29,7 +30,7 @@ class ButtonAnimationController extends StatefulWidget {
   double width;
   double height;
   Color color;
-  MaterialColor progressColor;
+  Color progressColor;
   Widget textButton;
 
   ButtonAnimationController(
